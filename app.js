@@ -9,7 +9,7 @@ const session = require('express-session')
 const cookieParser = require('cookie-parser')
 const flash = require('connect-flash');
 const mongoose = require('mongoose');
-const port = process.env.PORT || 4001
+const port = process.env.PORT ||4000
 env.config()
 
 
